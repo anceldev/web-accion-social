@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgba(255, 0, 0, 0.2);
+}
+ul {
+    list-style: none;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav a,
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+nav li {
+    display: inline;
+}
+nav a {
+    width: 20%;
+}
+nav ul {
+    right: 0;
+}
+h1{
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
